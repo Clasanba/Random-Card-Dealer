@@ -1,1 +1,50 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+#card {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin: 10%;
+  margin-left: 40%;
+  border-radius: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+#logtop {
+  font-size: 80px;
+  margin-right: 70%;
+}
+#number {
+  font-size: 100px;
+}
+#logbotton {
+  font-size: 80px;
+  margin-left: 70%;
+}
+.corazones::after {
+  content: "♥";
+  color: red;
+}
+.diamantes::after {
+  content: "♦";
+  color: red;
+}
+.treboles::after {
+  content: "♣";
+  color: black;
+}
+.picas::after {
+  content: "♠";
+  color: black;
+}
+.positionbutton {
+  margin-top: 20px;
+  margin-left: 25%;
+  font-family: "Times New Roman", Times, serif;
+}
+.inputW-H {
+  margin-bottom: 5%;
+  margin-left: 35%;
+  font-family: "Times New Roman", Times, serif;
+}

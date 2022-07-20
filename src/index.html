@@ -6,24 +6,42 @@
     <title>Hello Rigo with Vanilla.js</title>
     <link
       rel="stylesheet"
+      href="./style.css"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" type="text/css" href="./style.css"></link>
   </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+  <body >
+
+    <!--Card-->
+      <div  id = "card" class="text-center">
+        <div id = "logtop" ></div>
+        <div id = "number"></div>
+        <div id = "logbotton"></div>
       </div>
+
+    <!--Botón nueva carta-->
+    <div class="d-grid gap-2 col-6 fixed-top positionbutton">
+      <button  id= "btnewCard" class="btn btn-danger" type="button">Nueva carta</button>
     </div>
+
+    <!-- inputs width y height-->
+    <div class="grid inputW-H  fixed-bottom">
+      <input  id = "widthCard" class="me-auto rounded " type="number" placeholder="Width" aria-label="Width">
+      <input  id = "heightCard" class="me-auto rounded " type="number" placeholder="Height" aria-label="Height">
+      <button  id = "summitButtom" type="button" class="btn btn-danger">Submit</button>
+    </div>
+    
+
+    <!--Pie página-->
+              <div class="fixed-bottom p-4">
+                  Made with ❤️ by Claudia
+              </div>
+    
+    <script src="./app.js"></script>
   </body>
 </html>
